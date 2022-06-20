@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		8496E5A82860612D0060A45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5A72860612D0060A45A /* AppDelegate.swift */; };
 		8496E5AA2860612D0060A45A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5A92860612D0060A45A /* SceneDelegate.swift */; };
-		8496E5AC2860612D0060A45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5AB2860612D0060A45A /* ViewController.swift */; };
-		8496E5AF2860612D0060A45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5AD2860612D0060A45A /* Main.storyboard */; };
 		8496E5B12860612F0060A45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5B02860612F0060A45A /* Assets.xcassets */; };
 		8496E5B42860612F0060A45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5B22860612F0060A45A /* LaunchScreen.storyboard */; };
 		8496E5BF2860612F0060A45A /* Yu_Gi_OhApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5BE2860612F0060A45A /* Yu_Gi_OhApiTests.swift */; };
 		8496E5C92860612F0060A45A /* Yu_Gi_OhApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5C82860612F0060A45A /* Yu_Gi_OhApiUITests.swift */; };
 		8496E5CB2860612F0060A45A /* Yu_Gi_OhApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5CA2860612F0060A45A /* Yu_Gi_OhApiUITestsLaunchTests.swift */; };
+		8496E5E1286069510060A45A /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5E0286069510060A45A /* CardData.swift */; };
+		8496E5E3286069760060A45A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5E2286069760060A45A /* NetworkManager.swift */; };
+		8496E5E5286069850060A45A /* DownloadImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5E4286069850060A45A /* DownloadImg.swift */; };
+		8496E5E7286069B10060A45A /* MonsterCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5E6286069B10060A45A /* MonsterCardsViewController.swift */; };
+		8496E5E9286069C30060A45A /* MonsterCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5E8286069C30060A45A /* MonsterCardsViewModel.swift */; };
+		8496E5EB286069DB0060A45A /* MonsterCardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5EA286069DB0060A45A /* MonsterCardsCell.swift */; };
+		8496E5ED286069EB0060A45A /* MonsterCards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5EC286069EB0060A45A /* MonsterCards.storyboard */; };
+		8496E5EF28606A190060A45A /* SpellCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5EE28606A190060A45A /* SpellCardsViewController.swift */; };
+		8496E5F128606A2B0060A45A /* SpellCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5F028606A2B0060A45A /* SpellCardsViewModel.swift */; };
+		8496E5F328606A470060A45A /* SpellCardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5F228606A470060A45A /* SpellCardsCell.swift */; };
+		8496E5F528606A5A0060A45A /* SpellCards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5F428606A5A0060A45A /* SpellCards.storyboard */; };
+		8496E5F728606AA00060A45A /* TrapCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5F628606AA00060A45A /* TrapCardsViewController.swift */; };
+		8496E5F928606AB20060A45A /* TrapCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5F828606AB20060A45A /* TrapCardsViewModel.swift */; };
+		8496E5FB28606AC60060A45A /* TrapCardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496E5FA28606AC60060A45A /* TrapCardsCell.swift */; };
+		8496E5FD28606AD10060A45A /* TrapCards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496E5FC28606AD10060A45A /* TrapCards.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		8496E5A42860612D0060A45A /* Yu-Gi-OhApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yu-Gi-OhApi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496E5A72860612D0060A45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8496E5A92860612D0060A45A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8496E5AB2860612D0060A45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8496E5AE2860612D0060A45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8496E5B02860612F0060A45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8496E5B32860612F0060A45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8496E5B52860612F0060A45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,21 @@
 		8496E5C42860612F0060A45A /* Yu-Gi-OhApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yu-Gi-OhApiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496E5C82860612F0060A45A /* Yu_Gi_OhApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yu_Gi_OhApiUITests.swift; sourceTree = "<group>"; };
 		8496E5CA2860612F0060A45A /* Yu_Gi_OhApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yu_Gi_OhApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8496E5E0286069510060A45A /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		8496E5E2286069760060A45A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8496E5E4286069850060A45A /* DownloadImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImg.swift; sourceTree = "<group>"; };
+		8496E5E6286069B10060A45A /* MonsterCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewController.swift; sourceTree = "<group>"; };
+		8496E5E8286069C30060A45A /* MonsterCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewModel.swift; sourceTree = "<group>"; };
+		8496E5EA286069DB0060A45A /* MonsterCardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsCell.swift; sourceTree = "<group>"; };
+		8496E5EC286069EB0060A45A /* MonsterCards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonsterCards.storyboard; sourceTree = "<group>"; };
+		8496E5EE28606A190060A45A /* SpellCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCardsViewController.swift; sourceTree = "<group>"; };
+		8496E5F028606A2B0060A45A /* SpellCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCardsViewModel.swift; sourceTree = "<group>"; };
+		8496E5F228606A470060A45A /* SpellCardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCardsCell.swift; sourceTree = "<group>"; };
+		8496E5F428606A5A0060A45A /* SpellCards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpellCards.storyboard; sourceTree = "<group>"; };
+		8496E5F628606AA00060A45A /* TrapCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsViewController.swift; sourceTree = "<group>"; };
+		8496E5F828606AB20060A45A /* TrapCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsViewModel.swift; sourceTree = "<group>"; };
+		8496E5FA28606AC60060A45A /* TrapCardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsCell.swift; sourceTree = "<group>"; };
+		8496E5FC28606AD10060A45A /* TrapCards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrapCards.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +125,12 @@
 		8496E5A62860612D0060A45A /* Yu-Gi-OhApi */ = {
 			isa = PBXGroup;
 			children = (
+				8496E5DB286065FC0060A45A /* Network */,
+				8496E5DF286066880060A45A /* MonsterCards */,
+				8496E5DD286066720060A45A /* SpellCards */,
+				8496E5DE2860667E0060A45A /* TrapCards */,
 				8496E5A72860612D0060A45A /* AppDelegate.swift */,
 				8496E5A92860612D0060A45A /* SceneDelegate.swift */,
-				8496E5AB2860612D0060A45A /* ViewController.swift */,
-				8496E5AD2860612D0060A45A /* Main.storyboard */,
 				8496E5B02860612F0060A45A /* Assets.xcassets */,
 				8496E5B22860612F0060A45A /* LaunchScreen.storyboard */,
 				8496E5B52860612F0060A45A /* Info.plist */,
@@ -125,6 +153,49 @@
 				8496E5CA2860612F0060A45A /* Yu_Gi_OhApiUITestsLaunchTests.swift */,
 			);
 			path = "Yu-Gi-OhApiUITests";
+			sourceTree = "<group>";
+		};
+		8496E5DB286065FC0060A45A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8496E5E0286069510060A45A /* CardData.swift */,
+				8496E5E2286069760060A45A /* NetworkManager.swift */,
+				8496E5E4286069850060A45A /* DownloadImg.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8496E5DD286066720060A45A /* SpellCards */ = {
+			isa = PBXGroup;
+			children = (
+				8496E5EE28606A190060A45A /* SpellCardsViewController.swift */,
+				8496E5F028606A2B0060A45A /* SpellCardsViewModel.swift */,
+				8496E5F228606A470060A45A /* SpellCardsCell.swift */,
+				8496E5F428606A5A0060A45A /* SpellCards.storyboard */,
+			);
+			path = SpellCards;
+			sourceTree = "<group>";
+		};
+		8496E5DE2860667E0060A45A /* TrapCards */ = {
+			isa = PBXGroup;
+			children = (
+				8496E5F628606AA00060A45A /* TrapCardsViewController.swift */,
+				8496E5F828606AB20060A45A /* TrapCardsViewModel.swift */,
+				8496E5FA28606AC60060A45A /* TrapCardsCell.swift */,
+				8496E5FC28606AD10060A45A /* TrapCards.storyboard */,
+			);
+			path = TrapCards;
+			sourceTree = "<group>";
+		};
+		8496E5DF286066880060A45A /* MonsterCards */ = {
+			isa = PBXGroup;
+			children = (
+				8496E5E6286069B10060A45A /* MonsterCardsViewController.swift */,
+				8496E5E8286069C30060A45A /* MonsterCardsViewModel.swift */,
+				8496E5EA286069DB0060A45A /* MonsterCardsCell.swift */,
+				8496E5EC286069EB0060A45A /* MonsterCards.storyboard */,
+			);
+			path = MonsterCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +304,9 @@
 			files = (
 				8496E5B42860612F0060A45A /* LaunchScreen.storyboard in Resources */,
 				8496E5B12860612F0060A45A /* Assets.xcassets in Resources */,
-				8496E5AF2860612D0060A45A /* Main.storyboard in Resources */,
+				8496E5FD28606AD10060A45A /* TrapCards.storyboard in Resources */,
+				8496E5ED286069EB0060A45A /* MonsterCards.storyboard in Resources */,
+				8496E5F528606A5A0060A45A /* SpellCards.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +331,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8496E5AC2860612D0060A45A /* ViewController.swift in Sources */,
+				8496E5F328606A470060A45A /* SpellCardsCell.swift in Sources */,
+				8496E5F728606AA00060A45A /* TrapCardsViewController.swift in Sources */,
+				8496E5F928606AB20060A45A /* TrapCardsViewModel.swift in Sources */,
+				8496E5E5286069850060A45A /* DownloadImg.swift in Sources */,
+				8496E5E7286069B10060A45A /* MonsterCardsViewController.swift in Sources */,
+				8496E5E9286069C30060A45A /* MonsterCardsViewModel.swift in Sources */,
+				8496E5E3286069760060A45A /* NetworkManager.swift in Sources */,
+				8496E5F128606A2B0060A45A /* SpellCardsViewModel.swift in Sources */,
+				8496E5E1286069510060A45A /* CardData.swift in Sources */,
 				8496E5A82860612D0060A45A /* AppDelegate.swift in Sources */,
+				8496E5EF28606A190060A45A /* SpellCardsViewController.swift in Sources */,
 				8496E5AA2860612D0060A45A /* SceneDelegate.swift in Sources */,
+				8496E5EB286069DB0060A45A /* MonsterCardsCell.swift in Sources */,
+				8496E5FB28606AC60060A45A /* TrapCardsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8496E5AD2860612D0060A45A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8496E5AE2860612D0060A45A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8496E5B22860612F0060A45A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +517,7 @@
 				INFOPLIST_FILE = "Yu-Gi-OhApi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MonsterCards;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +544,7 @@
 				INFOPLIST_FILE = "Yu-Gi-OhApi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MonsterCards;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
